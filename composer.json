@@ -1,0 +1,40 @@
+{
+    "name": "aedart/athenaeum-collections",
+    "description": "Collections and data processing utilities",
+    "keywords": ["Athenaeum", "Collections", "Items Processor"],
+    "homepage": "https://aedart.github.io/athenaeum/",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alin Eugen Deac",
+            "email": "aedart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "aedart/athenaeum-container": "6.x-dev",
+        "aedart/athenaeum-contracts": "6.x-dev",
+        "aedart/athenaeum-support": "6.x-dev",
+        "aedart/athenaeum-utils": "6.x-dev",
+        "illuminate/collections": "v9.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aedart\\Collections\\": "src"
+        }
+    },
+    "suggest": {
+        "symfony/var-dumper": "symfony/var-dumper: Required to use the dd and dump functions."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
